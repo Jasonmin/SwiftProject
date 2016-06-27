@@ -1,0 +1,7 @@
+2016年06月27日
+    创建LJYQ
+——
+    1.TabbarController
+        - TabBar 默认蓝色变更为图片颜色：self.tabBar.tintColor = UIColor(red: 240/255, green: 89/255, blue: 27/255, alpha: 1.0)
+    2.全局设置背景色
+        

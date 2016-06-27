@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		8C4050161D210D0800FFE949 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4050151D210D0800FFE949 /* AppDelegate.swift */; };
-		8C4050181D210D0800FFE949 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4050171D210D0800FFE949 /* ViewController.swift */; };
 		8C40501B1D210D0800FFE949 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C4050191D210D0800FFE949 /* Main.storyboard */; };
 		8C40501D1D210D0800FFE949 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C40501C1D210D0800FFE949 /* Assets.xcassets */; };
 		8C4050201D210D0800FFE949 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C40501E1D210D0800FFE949 /* LaunchScreen.storyboard */; };
+		8C4050291D210EEB00FFE949 /* Readme in Resources */ = {isa = PBXBuildFile; fileRef = 8C4050281D210EEB00FFE949 /* Readme */; };
+		8C40502B1D21132B00FFE949 /* JYQTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C40502A1D21132B00FFE949 /* JYQTabBarVC.swift */; };
+		8C40502F1D2113DF00FFE949 /* JYQFirVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C40502E1D2113DF00FFE949 /* JYQFirVC.swift */; };
+		8C4050311D2113E800FFE949 /* JYQSecVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4050301D2113E800FFE949 /* JYQSecVC.swift */; };
+		8C4050351D21254400FFE949 /* JYQVCSwizzling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4050341D21254400FFE949 /* JYQVCSwizzling.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8C4050121D210D0800FFE949 /* LJYQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJYQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C4050151D210D0800FFE949 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8C4050171D210D0800FFE949 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8C40501A1D210D0800FFE949 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C40501C1D210D0800FFE949 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C40501F1D210D0800FFE949 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C4050211D210D0800FFE949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C4050281D210EEB00FFE949 /* Readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme; sourceTree = "<group>"; };
+		8C40502A1D21132B00FFE949 /* JYQTabBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYQTabBarVC.swift; sourceTree = "<group>"; };
+		8C40502E1D2113DF00FFE949 /* JYQFirVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYQFirVC.swift; sourceTree = "<group>"; };
+		8C4050301D2113E800FFE949 /* JYQSecVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYQSecVC.swift; sourceTree = "<group>"; };
+		8C4050341D21254400FFE949 /* JYQVCSwizzling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYQVCSwizzling.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +46,9 @@
 		8C4050091D210D0800FFE949 = {
 			isa = PBXGroup;
 			children = (
+				8C4050281D210EEB00FFE949 /* Readme */,
+				8C4050321D2124F300FFE949 /* Util */,
+				8C4050271D210E2600FFE949 /* Modules */,
 				8C4050141D210D0800FFE949 /* LJYQ */,
 				8C4050131D210D0800FFE949 /* Products */,
 			);
@@ -55,13 +66,54 @@
 			isa = PBXGroup;
 			children = (
 				8C4050151D210D0800FFE949 /* AppDelegate.swift */,
-				8C4050171D210D0800FFE949 /* ViewController.swift */,
+				8C40502A1D21132B00FFE949 /* JYQTabBarVC.swift */,
 				8C4050191D210D0800FFE949 /* Main.storyboard */,
 				8C40501C1D210D0800FFE949 /* Assets.xcassets */,
 				8C40501E1D210D0800FFE949 /* LaunchScreen.storyboard */,
 				8C4050211D210D0800FFE949 /* Info.plist */,
 			);
 			path = LJYQ;
+			sourceTree = "<group>";
+		};
+		8C4050271D210E2600FFE949 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				8C40502C1D2113CB00FFE949 /* Fir */,
+				8C40502D1D2113CB00FFE949 /* Sec */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		8C40502C1D2113CB00FFE949 /* Fir */ = {
+			isa = PBXGroup;
+			children = (
+				8C40502E1D2113DF00FFE949 /* JYQFirVC.swift */,
+			);
+			path = Fir;
+			sourceTree = "<group>";
+		};
+		8C40502D1D2113CB00FFE949 /* Sec */ = {
+			isa = PBXGroup;
+			children = (
+				8C4050301D2113E800FFE949 /* JYQSecVC.swift */,
+			);
+			path = Sec;
+			sourceTree = "<group>";
+		};
+		8C4050321D2124F300FFE949 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				8C4050331D21250B00FFE949 /* Swizzling */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		8C4050331D21250B00FFE949 /* Swizzling */ = {
+			isa = PBXGroup;
+			children = (
+				8C4050341D21254400FFE949 /* JYQVCSwizzling.swift */,
+			);
+			path = Swizzling;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +175,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C4050291D210EEB00FFE949 /* Readme in Resources */,
 				8C4050201D210D0800FFE949 /* LaunchScreen.storyboard in Resources */,
 				8C40501D1D210D0800FFE949 /* Assets.xcassets in Resources */,
 				8C40501B1D210D0800FFE949 /* Main.storyboard in Resources */,
@@ -136,8 +189,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C4050181D210D0800FFE949 /* ViewController.swift in Sources */,
+				8C40502F1D2113DF00FFE949 /* JYQFirVC.swift in Sources */,
+				8C4050311D2113E800FFE949 /* JYQSecVC.swift in Sources */,
+				8C40502B1D21132B00FFE949 /* JYQTabBarVC.swift in Sources */,
 				8C4050161D210D0800FFE949 /* AppDelegate.swift in Sources */,
+				8C4050351D21254400FFE949 /* JYQVCSwizzling.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LJYQ/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhou.LJYQ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -264,6 +321,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LJYQ/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhou.LJYQ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,6 +347,7 @@
 				8C4050261D210D0800FFE949 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
