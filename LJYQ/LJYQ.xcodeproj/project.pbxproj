@@ -11,7 +11,6 @@
 		8C40501B1D210D0800FFE949 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C4050191D210D0800FFE949 /* Main.storyboard */; };
 		8C40501D1D210D0800FFE949 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C40501C1D210D0800FFE949 /* Assets.xcassets */; };
 		8C4050201D210D0800FFE949 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C40501E1D210D0800FFE949 /* LaunchScreen.storyboard */; };
-		8C4050291D210EEB00FFE949 /* Readme in Resources */ = {isa = PBXBuildFile; fileRef = 8C4050281D210EEB00FFE949 /* Readme */; };
 		8C40502B1D21132B00FFE949 /* JYQTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C40502A1D21132B00FFE949 /* JYQTabBarVC.swift */; };
 		8C40502F1D2113DF00FFE949 /* JYQFirVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C40502E1D2113DF00FFE949 /* JYQFirVC.swift */; };
 		8C4050311D2113E800FFE949 /* JYQSecVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4050301D2113E800FFE949 /* JYQSecVC.swift */; };
@@ -19,6 +18,13 @@
 		8CB6C6A61D2207C40037A4A8 /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB6C6A51D2207C40037A4A8 /* GlobalConstants.swift */; };
 		8CB6C6A91D220C780037A4A8 /* JYQStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB6C6A81D220C780037A4A8 /* JYQStringExtension.swift */; };
 		8CB6C6AC1D220DCC0037A4A8 /* JYQLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB6C6AB1D220DCC0037A4A8 /* JYQLogger.swift */; };
+		8CB6C6B41D2217F60037A4A8 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB6C6B01D2217F60037A4A8 /* NSObject+YYModel.m */; };
+		8CB6C6B51D2217F60037A4A8 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB6C6B21D2217F60037A4A8 /* YYClassInfo.m */; };
+		8CB6C6D61D2220C50037A4A8 /* Readme in Resources */ = {isa = PBXBuildFile; fileRef = 8CB6C6D51D2220C50037A4A8 /* Readme */; };
+		8CB6C6DA1D2221890037A4A8 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB6C6D91D2221890037A4A8 /* MBProgressHUD.m */; };
+		8CB6C6E01D2223330037A4A8 /* HudUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB6C6DF1D2223330037A4A8 /* HudUtil.swift */; };
+		8CB6C6E31D2224E40037A4A8 /* JYQTestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB6C6E21D2224E40037A4A8 /* JYQTestModel.swift */; };
+		8CB6C6E51D2229950037A4A8 /* gcdTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB6C6E41D2229950037A4A8 /* gcdTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +34,6 @@
 		8C40501C1D210D0800FFE949 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C40501F1D210D0800FFE949 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C4050211D210D0800FFE949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8C4050281D210EEB00FFE949 /* Readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme; sourceTree = "<group>"; };
 		8C40502A1D21132B00FFE949 /* JYQTabBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYQTabBarVC.swift; sourceTree = "<group>"; };
 		8C40502E1D2113DF00FFE949 /* JYQFirVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYQFirVC.swift; sourceTree = "<group>"; };
 		8C4050301D2113E800FFE949 /* JYQSecVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYQSecVC.swift; sourceTree = "<group>"; };
@@ -36,6 +41,18 @@
 		8CB6C6A51D2207C40037A4A8 /* GlobalConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalConstants.swift; sourceTree = "<group>"; };
 		8CB6C6A81D220C780037A4A8 /* JYQStringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYQStringExtension.swift; sourceTree = "<group>"; };
 		8CB6C6AB1D220DCC0037A4A8 /* JYQLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYQLogger.swift; sourceTree = "<group>"; };
+		8CB6C6AF1D2217F60037A4A8 /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
+		8CB6C6B01D2217F60037A4A8 /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
+		8CB6C6B11D2217F60037A4A8 /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
+		8CB6C6B21D2217F60037A4A8 /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
+		8CB6C6B31D2217F60037A4A8 /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
+		8CB6C6B61D221A7D0037A4A8 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		8CB6C6D51D2220C50037A4A8 /* Readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme; sourceTree = "<group>"; };
+		8CB6C6D81D2221890037A4A8 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		8CB6C6D91D2221890037A4A8 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		8CB6C6DF1D2223330037A4A8 /* HudUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HudUtil.swift; sourceTree = "<group>"; };
+		8CB6C6E21D2224E40037A4A8 /* JYQTestModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYQTestModel.swift; sourceTree = "<group>"; };
+		8CB6C6E41D2229950037A4A8 /* gcdTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gcdTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +69,6 @@
 		8C4050091D210D0800FFE949 = {
 			isa = PBXGroup;
 			children = (
-				8C4050281D210EEB00FFE949 /* Readme */,
 				8C4050321D2124F300FFE949 /* Util */,
 				8C4050271D210E2600FFE949 /* Modules */,
 				8C4050141D210D0800FFE949 /* LJYQ */,
@@ -77,6 +93,8 @@
 				8C40501C1D210D0800FFE949 /* Assets.xcassets */,
 				8C40501E1D210D0800FFE949 /* LaunchScreen.storyboard */,
 				8C4050211D210D0800FFE949 /* Info.plist */,
+				8CB6C6B61D221A7D0037A4A8 /* BridgingHeader.h */,
+				8CB6C6D51D2220C50037A4A8 /* Readme */,
 			);
 			path = LJYQ;
 			sourceTree = "<group>";
@@ -84,6 +102,7 @@
 		8C4050271D210E2600FFE949 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				8CB6C6E11D2224D30037A4A8 /* Test */,
 				8C40502C1D2113CB00FFE949 /* Fir */,
 				8C40502D1D2113CB00FFE949 /* Sec */,
 			);
@@ -109,6 +128,8 @@
 		8C4050321D2124F300FFE949 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				8CB6C6DB1D2222D80037A4A8 /* UI */,
+				8CB6C6AD1D2217A40037A4A8 /* Vendors */,
 				8CB6C6AA1D220DBE0037A4A8 /* Log */,
 				8CB6C6A71D220B990037A4A8 /* Extensions */,
 				8CB6C6A41D22073D0037A4A8 /* Constants */,
@@ -147,6 +168,61 @@
 				8CB6C6AB1D220DCC0037A4A8 /* JYQLogger.swift */,
 			);
 			path = Log;
+			sourceTree = "<group>";
+		};
+		8CB6C6AD1D2217A40037A4A8 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				8CB6C6D71D2221890037A4A8 /* MBProgressHUD */,
+				8CB6C6AE1D2217F60037A4A8 /* YYModel */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		8CB6C6AE1D2217F60037A4A8 /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				8CB6C6AF1D2217F60037A4A8 /* NSObject+YYModel.h */,
+				8CB6C6B01D2217F60037A4A8 /* NSObject+YYModel.m */,
+				8CB6C6B11D2217F60037A4A8 /* YYClassInfo.h */,
+				8CB6C6B21D2217F60037A4A8 /* YYClassInfo.m */,
+				8CB6C6B31D2217F60037A4A8 /* YYModel.h */,
+			);
+			path = YYModel;
+			sourceTree = "<group>";
+		};
+		8CB6C6D71D2221890037A4A8 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				8CB6C6D81D2221890037A4A8 /* MBProgressHUD.h */,
+				8CB6C6D91D2221890037A4A8 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		8CB6C6DB1D2222D80037A4A8 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8CB6C6DC1D2222E80037A4A8 /* HudUtil */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		8CB6C6DC1D2222E80037A4A8 /* HudUtil */ = {
+			isa = PBXGroup;
+			children = (
+				8CB6C6DF1D2223330037A4A8 /* HudUtil.swift */,
+			);
+			path = HudUtil;
+			sourceTree = "<group>";
+		};
+		8CB6C6E11D2224D30037A4A8 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				8CB6C6E21D2224E40037A4A8 /* JYQTestModel.swift */,
+				8CB6C6E41D2229950037A4A8 /* gcdTest.swift */,
+			);
+			path = Test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,7 +284,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C4050291D210EEB00FFE949 /* Readme in Resources */,
+				8CB6C6D61D2220C50037A4A8 /* Readme in Resources */,
 				8C4050201D210D0800FFE949 /* LaunchScreen.storyboard in Resources */,
 				8C40501D1D210D0800FFE949 /* Assets.xcassets in Resources */,
 				8C40501B1D210D0800FFE949 /* Main.storyboard in Resources */,
@@ -222,13 +298,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CB6C6E51D2229950037A4A8 /* gcdTest.swift in Sources */,
+				8CB6C6B41D2217F60037A4A8 /* NSObject+YYModel.m in Sources */,
 				8C40502F1D2113DF00FFE949 /* JYQFirVC.swift in Sources */,
 				8C4050311D2113E800FFE949 /* JYQSecVC.swift in Sources */,
+				8CB6C6E01D2223330037A4A8 /* HudUtil.swift in Sources */,
 				8CB6C6A91D220C780037A4A8 /* JYQStringExtension.swift in Sources */,
+				8CB6C6DA1D2221890037A4A8 /* MBProgressHUD.m in Sources */,
 				8C40502B1D21132B00FFE949 /* JYQTabBarVC.swift in Sources */,
+				8CB6C6E31D2224E40037A4A8 /* JYQTestModel.swift in Sources */,
 				8C4050161D210D0800FFE949 /* AppDelegate.swift in Sources */,
 				8CB6C6A61D2207C40037A4A8 /* GlobalConstants.swift in Sources */,
 				8CB6C6AC1D220DCC0037A4A8 /* JYQLogger.swift in Sources */,
+				8CB6C6B51D2217F60037A4A8 /* YYClassInfo.m in Sources */,
 				8C4050351D21254400FFE949 /* JYQVCSwizzling.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,6 +432,7 @@
 				OTHER_SWIFT_FLAGS = "-D DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhou.LJYQ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/LJYQ/BridgingHeader.h";
 			};
 			name = Debug;
 		};
@@ -363,6 +446,7 @@
 				OTHER_SWIFT_FLAGS = "-D DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhou.LJYQ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/LJYQ/BridgingHeader.h";
 			};
 			name = Release;
 		};

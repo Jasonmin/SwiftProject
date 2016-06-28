@@ -9,6 +9,8 @@
     1.常量类
     2.Logger
     3.Debug Now, you must set the "DEBUG" symbol elsewhere, though. Set it in the "Swift Compiler - Custom Flags" section, "Other Swift Flags" line. You add the DEBUG symbol with the -D DEBUG entry.
+    4.桥接
+    5.第三方封装，MBProgressHUD
 
 
         

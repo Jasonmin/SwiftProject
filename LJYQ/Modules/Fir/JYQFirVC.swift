@@ -13,10 +13,15 @@ class JYQFirVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let str:String = "zhouqiang"
-        str.hehehehe()
+        test()
         
-        printLog("jyq")
     }
-
+    
+    func test() {
+        let testModel:JYQTestModel! = JYQTestModel()
+        testModel.test_mbhud(self)
+        testModel.test_extension()
+        
+        gcd_after()
+    }
 }
