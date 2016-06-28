@@ -16,6 +16,9 @@
 		8C40502F1D2113DF00FFE949 /* JYQFirVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C40502E1D2113DF00FFE949 /* JYQFirVC.swift */; };
 		8C4050311D2113E800FFE949 /* JYQSecVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4050301D2113E800FFE949 /* JYQSecVC.swift */; };
 		8C4050351D21254400FFE949 /* JYQVCSwizzling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4050341D21254400FFE949 /* JYQVCSwizzling.swift */; };
+		8CB6C6A61D2207C40037A4A8 /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB6C6A51D2207C40037A4A8 /* GlobalConstants.swift */; };
+		8CB6C6A91D220C780037A4A8 /* JYQStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB6C6A81D220C780037A4A8 /* JYQStringExtension.swift */; };
+		8CB6C6AC1D220DCC0037A4A8 /* JYQLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB6C6AB1D220DCC0037A4A8 /* JYQLogger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		8C40502E1D2113DF00FFE949 /* JYQFirVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYQFirVC.swift; sourceTree = "<group>"; };
 		8C4050301D2113E800FFE949 /* JYQSecVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYQSecVC.swift; sourceTree = "<group>"; };
 		8C4050341D21254400FFE949 /* JYQVCSwizzling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYQVCSwizzling.swift; sourceTree = "<group>"; };
+		8CB6C6A51D2207C40037A4A8 /* GlobalConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalConstants.swift; sourceTree = "<group>"; };
+		8CB6C6A81D220C780037A4A8 /* JYQStringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYQStringExtension.swift; sourceTree = "<group>"; };
+		8CB6C6AB1D220DCC0037A4A8 /* JYQLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYQLogger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 		8C4050321D2124F300FFE949 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				8CB6C6AA1D220DBE0037A4A8 /* Log */,
+				8CB6C6A71D220B990037A4A8 /* Extensions */,
+				8CB6C6A41D22073D0037A4A8 /* Constants */,
 				8C4050331D21250B00FFE949 /* Swizzling */,
 			);
 			path = Util;
@@ -114,6 +123,30 @@
 				8C4050341D21254400FFE949 /* JYQVCSwizzling.swift */,
 			);
 			path = Swizzling;
+			sourceTree = "<group>";
+		};
+		8CB6C6A41D22073D0037A4A8 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				8CB6C6A51D2207C40037A4A8 /* GlobalConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		8CB6C6A71D220B990037A4A8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8CB6C6A81D220C780037A4A8 /* JYQStringExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8CB6C6AA1D220DBE0037A4A8 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				8CB6C6AB1D220DCC0037A4A8 /* JYQLogger.swift */,
+			);
+			path = Log;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,8 +224,11 @@
 			files = (
 				8C40502F1D2113DF00FFE949 /* JYQFirVC.swift in Sources */,
 				8C4050311D2113E800FFE949 /* JYQSecVC.swift in Sources */,
+				8CB6C6A91D220C780037A4A8 /* JYQStringExtension.swift in Sources */,
 				8C40502B1D21132B00FFE949 /* JYQTabBarVC.swift in Sources */,
 				8C4050161D210D0800FFE949 /* AppDelegate.swift in Sources */,
+				8CB6C6A61D2207C40037A4A8 /* GlobalConstants.swift in Sources */,
+				8CB6C6AC1D220DCC0037A4A8 /* JYQLogger.swift in Sources */,
 				8C4050351D21254400FFE949 /* JYQVCSwizzling.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,6 +347,7 @@
 				INFOPLIST_FILE = LJYQ/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhou.LJYQ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -323,6 +360,7 @@
 				INFOPLIST_FILE = LJYQ/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhou.LJYQ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

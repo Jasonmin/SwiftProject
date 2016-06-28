@@ -41,7 +41,6 @@ extension UIViewController {
             // rgb(235, 235, 241)
             self.view.backgroundColor = UIColor(red: 235/255, green: 235/255, blue: 241/255, alpha: 1.0)
         }
-        print(self)
         self.jyq_viewDidLoad()
     }
 }
