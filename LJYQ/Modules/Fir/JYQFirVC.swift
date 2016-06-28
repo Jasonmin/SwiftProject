@@ -18,10 +18,12 @@ class JYQFirVC: UIViewController {
     }
     
     func test() {
+        // 1
         let testModel:JYQTestModel! = JYQTestModel()
         testModel.test_mbhud(self)
         testModel.test_extension()
-        
+        // 2
         gcd_after()
+        test_banner()
     }
 }

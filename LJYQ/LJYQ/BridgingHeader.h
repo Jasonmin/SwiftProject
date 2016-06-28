@@ -12,5 +12,9 @@
 #import "YYModel.h"
 #import "MBProgressHUD.h"
 
+// Api
+#import "BannerAPI.h"
+#import "JYQBanner.h"
+
 
 #endif /* BridgingHeader_h */
