@@ -14,3 +14,14 @@ func gcd_after() {
         printLog("")
     }
 }
+
+func gcd_asyn() {
+    let queue = dispatch_queue_create("com.ljyq.mySerialQueue", nil)
+    dispatch_async(queue) { 
+        printLog("task in the queue")
+    }
+    
+    dispatch_async(dispatch_get_main_queue()) { 
+        printLog("main")
+    }
+}
