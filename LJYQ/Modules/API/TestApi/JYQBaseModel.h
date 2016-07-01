@@ -10,4 +10,10 @@
 
 @interface JYQBaseModel : NSObject
 
+@property (nonatomic, assign) NSInteger status;
+
+@property (nonatomic, copy) NSString *message;
+
+@property (nonatomic, strong) id result;
+
 @end

@@ -11,12 +11,21 @@ import Foundation
 func test_banner() {
     let bannerApi = BannerAPI(position: "1", type: "1")
     bannerApi.startWithCompletionHandler { (reqeust) in
-        let responseData = reqeust.responseObject as! NSDictionary
-        //let model = JYQBanner.yy_modelWithDictionary(responseData as [NSObject : AnyObject])!
+        let responseDict = reqeust.responseObject as! NSDictionary
         
+        let baseModel = JYQBaseModel.mj_objectWithKeyValues(responseDict)
+        if baseModel.status == 1 {
+            let arr = baseModel.result["commercial"] as! NSArray
+            let resultDict = arr.firstObject
+            
+            let bannerModel = JYQBanner.mj_objectWithKeyValues(resultDict)
+            printLog(bannerModel)
+            
+            
+        }
         
-        let str = responseData.jsonString()
-        printLog(responseData)
+        printLog(responseDict)
+        let str = responseDict.jsonString()
         printLog(str)
     }
 }

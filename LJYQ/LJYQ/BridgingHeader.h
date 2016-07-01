@@ -9,10 +9,11 @@
 #ifndef BridgingHeader_h
 #define BridgingHeader_h
 
-#import "YYModel.h"
 #import "MBProgressHUD.h"
+#import "MJExtension.h"
 
 // Api
+#import "JYQBaseModel.h"
 #import "BannerAPI.h"
 #import "JYQBanner.h"
 
