@@ -13,7 +13,6 @@ class JYQQuartzVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-//        test_customViewOnView(self.view)
         test_transformOnView(self.view)
     }
 

@@ -45,6 +45,7 @@
 		8CB6C71B1D2264650037A4A8 /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB6C71A1D2264650037A4A8 /* NSObject+Property.m */; };
 		8CB6C71F1D2265280037A4A8 /* ZZColorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB6C71E1D2265280037A4A8 /* ZZColorUtil.m */; };
 		8CB6C7241D2265A30037A4A8 /* BannerAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB6C7231D2265A30037A4A8 /* BannerAPI.m */; };
+		8CB7EE3F1D2A3A9A00FEB025 /* CATest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB7EE3E1D2A3A9A00FEB025 /* CATest.swift */; };
 		8CF86AF81D2360B000965703 /* JYQBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF86AF71D2360B000965703 /* JYQBaseModel.m */; };
 		8CF86B291D23751200965703 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF86B161D23751200965703 /* MJExtensionConst.m */; };
 		8CF86B2A1D23751200965703 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF86B181D23751200965703 /* MJFoundation.m */; };
@@ -117,6 +118,7 @@
 		8CB6C71E1D2265280037A4A8 /* ZZColorUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZColorUtil.m; sourceTree = "<group>"; };
 		8CB6C7221D2265A30037A4A8 /* BannerAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerAPI.h; sourceTree = "<group>"; };
 		8CB6C7231D2265A30037A4A8 /* BannerAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerAPI.m; sourceTree = "<group>"; };
+		8CB7EE3E1D2A3A9A00FEB025 /* CATest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CATest.swift; sourceTree = "<group>"; };
 		8CF86AF61D2360B000965703 /* JYQBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYQBaseModel.h; sourceTree = "<group>"; };
 		8CF86AF71D2360B000965703 /* JYQBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYQBaseModel.m; sourceTree = "<group>"; };
 		8CF86B141D23751200965703 /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
@@ -316,6 +318,7 @@
 				8CB6C6E41D2229950037A4A8 /* gcdTest.swift */,
 				8C8965EF1D22717A009C5122 /* ApiTest.swift */,
 				8C0B55BF1D2613090058AADC /* QuartzTest.swift */,
+				8CB7EE3E1D2A3A9A00FEB025 /* CATest.swift */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -520,6 +523,7 @@
 				8C4050311D2113E800FFE949 /* JYQSecVC.swift in Sources */,
 				8CF86B2E1D23751200965703 /* NSObject+MJClass.m in Sources */,
 				8CB6C7041D2262A20037A4A8 /* AFURLRequestSerialization.m in Sources */,
+				8CB7EE3F1D2A3A9A00FEB025 /* CATest.swift in Sources */,
 				8CB6C7101D2263730037A4A8 /* QLQBaseRequest.m in Sources */,
 				8CF86B2B1D23751200965703 /* MJProperty.m in Sources */,
 				8CB6C7181D22645F0037A4A8 /* NSObject+Model.m in Sources */,
