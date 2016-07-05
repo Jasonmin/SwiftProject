@@ -20,6 +20,7 @@
 		8C40502F1D2113DF00FFE949 /* JYQFirVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C40502E1D2113DF00FFE949 /* JYQFirVC.swift */; };
 		8C4050311D2113E800FFE949 /* JYQSecVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4050301D2113E800FFE949 /* JYQSecVC.swift */; };
 		8C4050351D21254400FFE949 /* JYQVCSwizzling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4050341D21254400FFE949 /* JYQVCSwizzling.swift */; };
+		8C743D081D2BA07300576A9D /* JYQCAVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C743D071D2BA07300576A9D /* JYQCAVC.swift */; };
 		8C8965F01D22717A009C5122 /* ApiTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8965EF1D22717A009C5122 /* ApiTest.swift */; };
 		8C8965F21D2277B6009C5122 /* JYQDictExtentsion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8965F11D2277B6009C5122 /* JYQDictExtentsion.swift */; };
 		8C8965F51D227EFA009C5122 /* JYQBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8965F41D227EFA009C5122 /* JYQBanner.m */; };
@@ -75,6 +76,7 @@
 		8C40502E1D2113DF00FFE949 /* JYQFirVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYQFirVC.swift; sourceTree = "<group>"; };
 		8C4050301D2113E800FFE949 /* JYQSecVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYQSecVC.swift; sourceTree = "<group>"; };
 		8C4050341D21254400FFE949 /* JYQVCSwizzling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYQVCSwizzling.swift; sourceTree = "<group>"; };
+		8C743D071D2BA07300576A9D /* JYQCAVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYQCAVC.swift; sourceTree = "<group>"; };
 		8C8965EF1D22717A009C5122 /* ApiTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiTest.swift; sourceTree = "<group>"; };
 		8C8965F11D2277B6009C5122 /* JYQDictExtentsion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYQDictExtentsion.swift; sourceTree = "<group>"; };
 		8C8965F31D227EFA009C5122 /* JYQBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYQBanner.h; sourceTree = "<group>"; };
@@ -202,6 +204,7 @@
 		8C4050271D210E2600FFE949 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				8C743D061D2B9FAD00576A9D /* Animation */,
 				8C0B55BC1D260B810058AADC /* Quartz */,
 				8CB6C7201D22658A0037A4A8 /* API */,
 				8CB6C6E11D2224D30037A4A8 /* Test */,
@@ -248,6 +251,14 @@
 				8C4050341D21254400FFE949 /* JYQVCSwizzling.swift */,
 			);
 			path = Swizzling;
+			sourceTree = "<group>";
+		};
+		8C743D061D2B9FAD00576A9D /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				8C743D071D2BA07300576A9D /* JYQCAVC.swift */,
+			);
+			path = Animation;
 			sourceTree = "<group>";
 		};
 		8CB6C6A41D22073D0037A4A8 /* Constants */ = {
@@ -512,6 +523,7 @@
 				8CB6C6E51D2229950037A4A8 /* gcdTest.swift in Sources */,
 				8CF86AF81D2360B000965703 /* JYQBaseModel.m in Sources */,
 				8C0B55C41D2645240058AADC /* JYQGraphView.swift in Sources */,
+				8C743D081D2BA07300576A9D /* JYQCAVC.swift in Sources */,
 				8CB6C7011D2262A20037A4A8 /* AFHTTPSessionManager.m in Sources */,
 				8CB6C7021D2262A20037A4A8 /* AFNetworkReachabilityManager.m in Sources */,
 				8CF86B311D23751200965703 /* NSObject+MJProperty.m in Sources */,
