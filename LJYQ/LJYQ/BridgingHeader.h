@@ -16,6 +16,7 @@
 #import "JYQBaseModel.h"
 #import "BannerAPI.h"
 #import "JYQBanner.h"
+#import "KxMovieViewController.h"
 
 
 #endif /* BridgingHeader_h */
