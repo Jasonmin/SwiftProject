@@ -12,6 +12,9 @@
 		8C0B55C21D2616A90058AADC /* JYQCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0B55C11D2616A90058AADC /* JYQCustomView.swift */; };
 		8C0B55C41D2645240058AADC /* JYQGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0B55C31D2645240058AADC /* JYQGraphView.swift */; };
 		8C0B55C61D26488D0058AADC /* JYQGraphView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C0B55C51D26488D0058AADC /* JYQGraphView.xib */; };
+		8C1757AA1D31EE9E001B7EFD /* JYQOCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1757A91D31EE9E001B7EFD /* JYQOCTest.m */; };
+		8C1757AE1D31EFA0001B7EFD /* JYQOCVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1757AD1D31EFA0001B7EFD /* JYQOCVC.m */; };
+		8C1757B11D31FF40001B7EFD /* JYQClangTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1757B01D31FF40001B7EFD /* JYQClangTest.m */; };
 		8C4050161D210D0800FFE949 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4050151D210D0800FFE949 /* AppDelegate.swift */; };
 		8C40501B1D210D0800FFE949 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C4050191D210D0800FFE949 /* Main.storyboard */; };
 		8C40501D1D210D0800FFE949 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C40501C1D210D0800FFE949 /* Assets.xcassets */; };
@@ -83,6 +86,12 @@
 		8C0B55C11D2616A90058AADC /* JYQCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYQCustomView.swift; sourceTree = "<group>"; };
 		8C0B55C31D2645240058AADC /* JYQGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYQGraphView.swift; sourceTree = "<group>"; };
 		8C0B55C51D26488D0058AADC /* JYQGraphView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JYQGraphView.xib; sourceTree = "<group>"; };
+		8C1757A81D31EE9E001B7EFD /* JYQOCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYQOCTest.h; sourceTree = "<group>"; };
+		8C1757A91D31EE9E001B7EFD /* JYQOCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYQOCTest.m; sourceTree = "<group>"; };
+		8C1757AC1D31EFA0001B7EFD /* JYQOCVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYQOCVC.h; sourceTree = "<group>"; };
+		8C1757AD1D31EFA0001B7EFD /* JYQOCVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYQOCVC.m; sourceTree = "<group>"; };
+		8C1757AF1D31FF40001B7EFD /* JYQClangTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYQClangTest.h; sourceTree = "<group>"; };
+		8C1757B01D31FF40001B7EFD /* JYQClangTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYQClangTest.m; sourceTree = "<group>"; };
 		8C4050121D210D0800FFE949 /* LJYQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJYQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C4050151D210D0800FFE949 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C40501A1D210D0800FFE949 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -322,6 +331,15 @@
 			path = Quartz;
 			sourceTree = "<group>";
 		};
+		8C1757AB1D31EF8A001B7EFD /* OCTest */ = {
+			isa = PBXGroup;
+			children = (
+				8C1757AC1D31EFA0001B7EFD /* JYQOCVC.h */,
+				8C1757AD1D31EFA0001B7EFD /* JYQOCVC.m */,
+			);
+			path = OCTest;
+			sourceTree = "<group>";
+		};
 		8C4050091D210D0800FFE949 = {
 			isa = PBXGroup;
 			children = (
@@ -362,6 +380,7 @@
 		8C4050271D210E2600FFE949 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				8C1757AB1D31EF8A001B7EFD /* OCTest */,
 				8CC37AEF1D2E3F2700ADBC93 /* FFmpeg */,
 				8C743D061D2B9FAD00576A9D /* Animation */,
 				8C0B55BC1D260B810058AADC /* Quartz */,
@@ -491,6 +510,10 @@
 				8C8965EF1D22717A009C5122 /* ApiTest.swift */,
 				8C0B55BF1D2613090058AADC /* QuartzTest.swift */,
 				8CB7EE3E1D2A3A9A00FEB025 /* CATest.swift */,
+				8C1757A81D31EE9E001B7EFD /* JYQOCTest.h */,
+				8C1757A91D31EE9E001B7EFD /* JYQOCTest.m */,
+				8C1757AF1D31FF40001B7EFD /* JYQClangTest.h */,
+				8C1757B01D31FF40001B7EFD /* JYQClangTest.m */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -921,11 +944,13 @@
 				8CB6C7241D2265A30037A4A8 /* BannerAPI.m in Sources */,
 				8C0B55BE1D2610840058AADC /* JYQQuartzVC.swift in Sources */,
 				8C0B55C01D2613090058AADC /* QuartzTest.swift in Sources */,
+				8C1757B11D31FF40001B7EFD /* JYQClangTest.m in Sources */,
 				8CB6C7031D2262A20037A4A8 /* AFSecurityPolicy.m in Sources */,
 				8CB6C7061D2262A20037A4A8 /* AFURLSessionManager.m in Sources */,
 				8CB6C6E01D2223330037A4A8 /* HudUtil.swift in Sources */,
 				8CB6C6A91D220C780037A4A8 /* JYQStringExtension.swift in Sources */,
 				8CB6C6DA1D2221890037A4A8 /* MBProgressHUD.m in Sources */,
+				8C1757AE1D31EFA0001B7EFD /* JYQOCVC.m in Sources */,
 				8CF86B301D23751200965703 /* NSObject+MJKeyValue.m in Sources */,
 				8CC37AEA1D2E3E8300ADBC93 /* KxAudioManager.m in Sources */,
 				8C40502B1D21132B00FFE949 /* JYQTabBarVC.swift in Sources */,
@@ -933,6 +958,7 @@
 				8C8965F21D2277B6009C5122 /* JYQDictExtentsion.swift in Sources */,
 				8C8965F01D22717A009C5122 /* ApiTest.swift in Sources */,
 				8CB6C71B1D2264650037A4A8 /* NSObject+Property.m in Sources */,
+				8C1757AA1D31EE9E001B7EFD /* JYQOCTest.m in Sources */,
 				8CB6C6E31D2224E40037A4A8 /* JYQTestModel.swift in Sources */,
 				8CF86B2C1D23751200965703 /* MJPropertyKey.m in Sources */,
 				8C4050161D210D0800FFE949 /* AppDelegate.swift in Sources */,
