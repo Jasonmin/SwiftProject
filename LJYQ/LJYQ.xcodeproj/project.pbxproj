@@ -24,6 +24,7 @@
 		8C4050311D2113E800FFE949 /* JYQSecVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4050301D2113E800FFE949 /* JYQSecVC.swift */; };
 		8C4050351D21254400FFE949 /* JYQVCSwizzling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4050341D21254400FFE949 /* JYQVCSwizzling.swift */; };
 		8C743D081D2BA07300576A9D /* JYQCAVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C743D071D2BA07300576A9D /* JYQCAVC.swift */; };
+		8C7CEF1C1D3379D400C8DB31 /* JYQTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7CEF1B1D3379D400C8DB31 /* JYQTouchView.m */; };
 		8C8965F01D22717A009C5122 /* ApiTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8965EF1D22717A009C5122 /* ApiTest.swift */; };
 		8C8965F21D2277B6009C5122 /* JYQDictExtentsion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8965F11D2277B6009C5122 /* JYQDictExtentsion.swift */; };
 		8C8965F51D227EFA009C5122 /* JYQBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8965F41D227EFA009C5122 /* JYQBanner.m */; };
@@ -103,6 +104,8 @@
 		8C4050301D2113E800FFE949 /* JYQSecVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYQSecVC.swift; sourceTree = "<group>"; };
 		8C4050341D21254400FFE949 /* JYQVCSwizzling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYQVCSwizzling.swift; sourceTree = "<group>"; };
 		8C743D071D2BA07300576A9D /* JYQCAVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYQCAVC.swift; sourceTree = "<group>"; };
+		8C7CEF1A1D3379D400C8DB31 /* JYQTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYQTouchView.h; sourceTree = "<group>"; };
+		8C7CEF1B1D3379D400C8DB31 /* JYQTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYQTouchView.m; sourceTree = "<group>"; };
 		8C8965EF1D22717A009C5122 /* ApiTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiTest.swift; sourceTree = "<group>"; };
 		8C8965F11D2277B6009C5122 /* JYQDictExtentsion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYQDictExtentsion.swift; sourceTree = "<group>"; };
 		8C8965F31D227EFA009C5122 /* JYQBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYQBanner.h; sourceTree = "<group>"; };
@@ -381,6 +384,7 @@
 			isa = PBXGroup;
 			children = (
 				8C1757AB1D31EF8A001B7EFD /* OCTest */,
+				8C7CEF191D3379CB00C8DB31 /* Views */,
 				8CC37AEF1D2E3F2700ADBC93 /* FFmpeg */,
 				8C743D061D2B9FAD00576A9D /* Animation */,
 				8C0B55BC1D260B810058AADC /* Quartz */,
@@ -437,6 +441,15 @@
 				8C743D071D2BA07300576A9D /* JYQCAVC.swift */,
 			);
 			path = Animation;
+			sourceTree = "<group>";
+		};
+		8C7CEF191D3379CB00C8DB31 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8C7CEF1A1D3379D400C8DB31 /* JYQTouchView.h */,
+				8C7CEF1B1D3379D400C8DB31 /* JYQTouchView.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		8CB6C6A41D22073D0037A4A8 /* Constants */ = {
@@ -942,6 +955,7 @@
 				8CF86B2B1D23751200965703 /* MJProperty.m in Sources */,
 				8CB6C7181D22645F0037A4A8 /* NSObject+Model.m in Sources */,
 				8CB6C7241D2265A30037A4A8 /* BannerAPI.m in Sources */,
+				8C7CEF1C1D3379D400C8DB31 /* JYQTouchView.m in Sources */,
 				8C0B55BE1D2610840058AADC /* JYQQuartzVC.swift in Sources */,
 				8C0B55C01D2613090058AADC /* QuartzTest.swift in Sources */,
 				8C1757B11D31FF40001B7EFD /* JYQClangTest.m in Sources */,

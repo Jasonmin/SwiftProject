@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface JYQOCTest : NSObject
 
@@ -17,4 +18,7 @@
 
 + (void)block_create;
 + (void)block_localVar;
++ (void)block_threeKindBlock;
+
++ (void)touch_createOnView:(UIView*)superView;
 @end

@@ -7,6 +7,7 @@
 //
 
 #import "JYQOCTest.h"
+#import "JYQTouchView.h"
 
 typedef void(^ZhouBlock)();
 
@@ -65,6 +66,37 @@ typedef void(^ZhouBlock)();
     };
     // 调用后控制台输出"global = 100"
     myBlock();
+}
+
++ (void)block_threeKindBlock {
+
+    // 1
+    void(^globalBlock)() = ^() {
+        NSLog(@"global block");
+    };
+    globalBlock();
+    NSLog(@"%@",globalBlock);
+    
+    // 2
+    int num = 100;
+    void(^stackBlock)() = ^() {
+        NSLog(@"stack block1 num:%d",num);
+    };
+    stackBlock();
+    NSLog(@"%@",^() {
+        NSLog(@"stack block2 num:%d",num);
+    });
+    NSLog(@"%@",stackBlock);
+    
+    // 3
+    
+}
+
+// touch
++ (void)touch_createOnView:(UIView*)superView {
+    JYQTouchView *touchView = [[JYQTouchView alloc]initWithFrame:CGRectMake(100, 100, 100, 100)];
+    touchView.backgroundColor = [UIColor redColor];
+    [superView addSubview:touchView];
 }
 
 @end

@@ -23,10 +23,13 @@
 //    [JYQOCTest oc_logDict];
 //    [JYQOCTest oc_copy];
 //    [JYQOCTest oc_arrStrCopy];
-    [JYQOCTest block_localVar];
+//    [JYQOCTest block_localVar];
+//    [JYQOCTest block_threeKindBlock];
+    [JYQOCTest touch_createOnView:self.view];
     
-    UIButton *btn = [UIButton new];
 }
+
+
 
 
 
