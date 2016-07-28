@@ -16,6 +16,6 @@ class JYQTestModel: NSObject {
     
     func test_extension() {
         let str:String = "zhouqiang"
-        str.hehehehe()
+        printLog(str)
     }
 }

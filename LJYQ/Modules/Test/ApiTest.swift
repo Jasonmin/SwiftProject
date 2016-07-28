@@ -21,7 +21,6 @@ func test_banner() {
             let bannerModel = JYQBanner.mj_objectWithKeyValues(resultDict)
             printLog(bannerModel)
             
-            
         }
         
         printLog(responseDict)

@@ -24,7 +24,7 @@ class JYQFirVC: UIViewController {
         testModel.test_extension()
         // 2
 //        gcd_after()
-//        test_banner()
-        gcd_asyn()
+        test_banner()
+//        gcd_asyn()
     }
 }

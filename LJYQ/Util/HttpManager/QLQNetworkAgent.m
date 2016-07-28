@@ -9,6 +9,7 @@
 #import "QLQNetworkAgent.h"
 #import "QLQNetworkConfig.h"
 #import "AFNetworking.h"
+#import "LJYQ-Swift.h"
 
 @implementation QLQNetworkAgent {
     QLQNetworkConfig *_config;
@@ -54,6 +55,19 @@
         request.urlResponse = response;
         request.responseObject = responseObject;
         request.error = error;
+        
+        // log response string
+#if DEBUG
+        if ([responseObject isKindOfClass:[NSDictionary class]]) {
+            NSDictionary *dict = (NSDictionary*)responseObject;
+            NSLog(@"==%@",[dict jsonString]);
+        } else if ([responseObject isKindOfClass:[NSDictionary class]]) {
+            NSArray *array = (NSArray*)responseObject;
+            NSLog(@"==%@",[array jsonString]);
+            
+        }
+#endif
+        
         
         [self handleResultWithRequest:request];
     }];

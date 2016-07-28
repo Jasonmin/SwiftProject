@@ -24,7 +24,7 @@
 }
 
 - (NSString *)requestUrl {
-    return @"http://api-ecloud.guoguoshu.net/v41/global/activity";
+    return @"http://api-ecloud.guoguoshu.net/v324/global/activity";
 }
 
 - (id)requestArgument {

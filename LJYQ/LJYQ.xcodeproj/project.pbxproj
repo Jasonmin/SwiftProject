@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C032A0C1D49E7B2000DC02A /* JYQString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C032A0B1D49E7B2000DC02A /* JYQString+Extension.swift */; };
+		8C032A0E1D49E809000DC02A /* JYQObject+Extentsion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C032A0D1D49E809000DC02A /* JYQObject+Extentsion.swift */; };
 		8C0B55BE1D2610840058AADC /* JYQQuartzVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0B55BD1D2610840058AADC /* JYQQuartzVC.swift */; };
 		8C0B55C01D2613090058AADC /* QuartzTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0B55BF1D2613090058AADC /* QuartzTest.swift */; };
 		8C0B55C21D2616A90058AADC /* JYQCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0B55C11D2616A90058AADC /* JYQCustomView.swift */; };
@@ -27,10 +29,8 @@
 		8C743D081D2BA07300576A9D /* JYQCAVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C743D071D2BA07300576A9D /* JYQCAVC.swift */; };
 		8C7CEF1C1D3379D400C8DB31 /* JYQTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7CEF1B1D3379D400C8DB31 /* JYQTouchView.m */; };
 		8C8965F01D22717A009C5122 /* ApiTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8965EF1D22717A009C5122 /* ApiTest.swift */; };
-		8C8965F21D2277B6009C5122 /* JYQDictExtentsion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8965F11D2277B6009C5122 /* JYQDictExtentsion.swift */; };
 		8C8965F51D227EFA009C5122 /* JYQBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8965F41D227EFA009C5122 /* JYQBanner.m */; };
 		8CB6C6A61D2207C40037A4A8 /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB6C6A51D2207C40037A4A8 /* GlobalConstants.swift */; };
-		8CB6C6A91D220C780037A4A8 /* JYQStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB6C6A81D220C780037A4A8 /* JYQStringExtension.swift */; };
 		8CB6C6AC1D220DCC0037A4A8 /* JYQLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB6C6AB1D220DCC0037A4A8 /* JYQLogger.swift */; };
 		8CB6C6D61D2220C50037A4A8 /* Readme in Resources */ = {isa = PBXBuildFile; fileRef = 8CB6C6D51D2220C50037A4A8 /* Readme */; };
 		8CB6C6DA1D2221890037A4A8 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB6C6D91D2221890037A4A8 /* MBProgressHUD.m */; };
@@ -83,6 +83,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C032A0B1D49E7B2000DC02A /* JYQString+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JYQString+Extension.swift"; sourceTree = "<group>"; };
+		8C032A0D1D49E809000DC02A /* JYQObject+Extentsion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JYQObject+Extentsion.swift"; sourceTree = "<group>"; };
 		8C0B55BD1D2610840058AADC /* JYQQuartzVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYQQuartzVC.swift; sourceTree = "<group>"; };
 		8C0B55BF1D2613090058AADC /* QuartzTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuartzTest.swift; sourceTree = "<group>"; };
 		8C0B55C11D2616A90058AADC /* JYQCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYQCustomView.swift; sourceTree = "<group>"; };
@@ -110,11 +112,9 @@
 		8C7CEF1A1D3379D400C8DB31 /* JYQTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYQTouchView.h; sourceTree = "<group>"; };
 		8C7CEF1B1D3379D400C8DB31 /* JYQTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYQTouchView.m; sourceTree = "<group>"; };
 		8C8965EF1D22717A009C5122 /* ApiTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiTest.swift; sourceTree = "<group>"; };
-		8C8965F11D2277B6009C5122 /* JYQDictExtentsion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYQDictExtentsion.swift; sourceTree = "<group>"; };
 		8C8965F31D227EFA009C5122 /* JYQBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYQBanner.h; sourceTree = "<group>"; };
 		8C8965F41D227EFA009C5122 /* JYQBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYQBanner.m; sourceTree = "<group>"; };
 		8CB6C6A51D2207C40037A4A8 /* GlobalConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalConstants.swift; sourceTree = "<group>"; };
-		8CB6C6A81D220C780037A4A8 /* JYQStringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYQStringExtension.swift; sourceTree = "<group>"; };
 		8CB6C6AB1D220DCC0037A4A8 /* JYQLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYQLogger.swift; sourceTree = "<group>"; };
 		8CB6C6B61D221A7D0037A4A8 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
 		8CB6C6D51D2220C50037A4A8 /* Readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme; sourceTree = "<group>"; };
@@ -466,8 +466,8 @@
 		8CB6C6A71D220B990037A4A8 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				8CB6C6A81D220C780037A4A8 /* JYQStringExtension.swift */,
-				8C8965F11D2277B6009C5122 /* JYQDictExtentsion.swift */,
+				8C032A0B1D49E7B2000DC02A /* JYQString+Extension.swift */,
+				8C032A0D1D49E809000DC02A /* JYQObject+Extentsion.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -967,19 +967,19 @@
 				8CB6C7031D2262A20037A4A8 /* AFSecurityPolicy.m in Sources */,
 				8CB6C7061D2262A20037A4A8 /* AFURLSessionManager.m in Sources */,
 				8CB6C6E01D2223330037A4A8 /* HudUtil.swift in Sources */,
-				8CB6C6A91D220C780037A4A8 /* JYQStringExtension.swift in Sources */,
 				8CB6C6DA1D2221890037A4A8 /* MBProgressHUD.m in Sources */,
 				8C1757AE1D31EFA0001B7EFD /* JYQOCVC.m in Sources */,
 				8CF86B301D23751200965703 /* NSObject+MJKeyValue.m in Sources */,
 				8CC37AEA1D2E3E8300ADBC93 /* KxAudioManager.m in Sources */,
 				8C40502B1D21132B00FFE949 /* JYQTabBarVC.swift in Sources */,
 				8CF86B2F1D23751200965703 /* NSObject+MJCoding.m in Sources */,
-				8C8965F21D2277B6009C5122 /* JYQDictExtentsion.swift in Sources */,
 				8C8965F01D22717A009C5122 /* ApiTest.swift in Sources */,
+				8C032A0E1D49E809000DC02A /* JYQObject+Extentsion.swift in Sources */,
 				8C6807DF1D38915700D30DCF /* JYQRunLoopTest.m in Sources */,
 				8CB6C71B1D2264650037A4A8 /* NSObject+Property.m in Sources */,
 				8C1757AA1D31EE9E001B7EFD /* JYQOCTest.m in Sources */,
 				8CB6C6E31D2224E40037A4A8 /* JYQTestModel.swift in Sources */,
+				8C032A0C1D49E7B2000DC02A /* JYQString+Extension.swift in Sources */,
 				8CF86B2C1D23751200965703 /* MJPropertyKey.m in Sources */,
 				8C4050161D210D0800FFE949 /* AppDelegate.swift in Sources */,
 				8CF86B2A1D23751200965703 /* MJFoundation.m in Sources */,
